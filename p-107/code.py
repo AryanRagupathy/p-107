@@ -14,7 +14,7 @@ chart = px.scatter(grouped_mean,
                 y = "Level",
                 size = "Attempt",
                 color = "Attempt",
-                title = "Performance of Students in each Level",
+                title = "Performance of Students in each Chapter",
                 )
 
 chart.update_layout(
